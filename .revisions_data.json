@@ -1,0 +1,13 @@
+{
+  "2026-W43-v1": {
+    "id": "2026-W43-v1",
+    "weekId": "2026-W43",
+    "versionNumber": 1,
+    "title": "2026-W43 1차 생산계획 공식 확정본",
+    "memo": "울산공장 가동 정상화 및 배터리셀 공급 증량 반영",
+    "createdBy": "jjh7535ok@gmail.com",
+    "createdAt": "2026-10-26T12:00:00Z",
+    "products": [],
+    "dataStore": {}
+  }
+}

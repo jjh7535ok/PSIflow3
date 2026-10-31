@@ -1,0 +1,8 @@
+{
+  "name": "Remix2 PSI Flow - 다거점 생산·판매·재고 관리 시스템",
+  "description": "깃허브 다시 연결",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

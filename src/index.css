@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@media print {
+  @page {
+    size: landscape;
+    margin: 8mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide headers, interactive buttons, and modals during printing */
+  header,
+  footer,
+  .no-print,
+  button,
+  .modal-backdrop,
+  .fixed {
+    display: none !important;
+  }
+
+  /* Display formatted report title on print */
+  .print-only-header {
+    display: block !important;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #334155;
+  }
+
+  /* Expand main grid */
+  main {
+    overflow: visible !important;
+    height: auto !important;
+    display: block !important;
+  }
+
+  table {
+    page-break-inside: auto;
+    width: 100% !important;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+}
+
+.print-only-header {
+  display: none;
+}

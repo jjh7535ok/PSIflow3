@@ -1,0 +1,6 @@
+{
+  "summary":  "품목 마스터 신규 부품 등록 및 삭제가 저장되지 않고 초기화되던 원인 해결 계획.\n- Firebase Auth 소유자(jjh7535ok@gmail.com) 세션 복원 버그 수정\n- Express 서버단 영구 저장소(/api/workspace) 구축 및 실시간 자동 동기화\n- URL 해시 스냅샷이 소유자 최신 데이터를 덮어쓰던 우선순위 로직 수정",
+  "updatedAt":  "2026-10-25T07:22:58.485487649Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
